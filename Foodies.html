@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodies Life Ghibli</title>
+    <!-- Tailwind CSS for vibrant styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #fcf6f0; }
+        .ghibli-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .ghibli-card:hover { transform: translateY(-6px); box-shadow: 0 15px 30px rgba(163, 177, 138, 0.4); }
+        .hero-gradient { background: linear-gradient(135deg, #a3b18a 0%, #3a5a40 100%); }
+    </style>
+</head>
+<body class="bg-[url('blob:https://gemini.google.com/238f6dbe-506f-4c46-99c6-c76da2c8e421')]bg-cover bg-center text-stone-700 min-h-screen flex flex-col"></body>
+    <!-- Header / Navbar -->
+    <header class="bg-[#3a5a40] text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-3xl">🥟</span>
+                <h1 class="text-xl md:text-2xl font-bold tracking-wide">Foodies Life Ghibli</h1>
+            </div>
+            <nav class="space-x-4 md:space-x-6 text-sm md:text-base font-medium">
+                <a href="#home" class="hover:text-[#e9edc9] transition">Home</a>
+                <a href="#content" class="hover:text-[#e9edc9] transition">Gallery</a>
+                <a href="#contact" class="hover:text-[#e9edc9] transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient text-white py-20 px-6 text-center relative overflow-hidden shadow-inner">
+        <div class="max-w-3xl mx-auto z-10 relative">
+            <span class="text-6xl mb-4 inline-block">✨🍜🍛🥗✨</span>
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 tracking-wide">✨Welcome to Foodies Life✨ ☕Ghibli☕</h2>
+            <p class="text-stone-100 text-lg md:text-xl leading-relaxed mb-8 opacity-95">
+                🍯Step into a magical world of Ghibli-style animation,traditional village cooking,comforting food, and heartwarming human stories!🍯
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://www.youtube.com/@FoodiesLife-e3h6rp" target="_blank" class="bg-[#fefae0] text-[#3a5a40] px-8 py-3 rounded-full font-bold shadow-lg hover:bg-white transition flex items-center gap-2">
+                    ▶️ Visit YouTube Channel
+                </a>
+                <a href="#content" class="bg-[#588157] text-white px-8 py-3 rounded-full font-bold shadow-lg hover:bg-[#3a5a40] transition border border-[#a3b18a]">
+                    Explore Gallery
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content / Gallery Section -->
+    <section id="content" class="container mx-auto px-6 py-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-[#3a5a40] mb-3">🥥Animation & Cooking Gallery🥥</h3>
+            <p class="text-stone-500">✨Delicious foods and beautiful human moments inspired by Ghibli aesthetics✨</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-[#dad7cd] ghibli-card">
+                <div class="text-5xl mb-4">🍲</div>
+                <h4 class="text-xl font-bold text-[#3a5a40] mb-2">🍛Traditional Village Cooking🍛</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    Authentic and rustic village food preparation recipes brought to life with soothing visual storytelling.🍃
+                </p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-[#dad7cd] ghibli-card">
+                <div class="text-5xl mb-4">🎨</div>
+                <h4 class="text-xl font-bold text-[#3a5a40] mb-2">🍲Ghibli Mukbang Scenes🍲</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    Mouth-watering Korean street food and seafood animations crafted in vibrant Ghibli art style.🍃
+                </p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-[#dad7cd] ghibli-card">
+                <div class="text-5xl mb-4">🍰</div>
+                <h4 class="text-xl font-bold text-[#3a5a40] mb-2">🍩Cakes & Desserts🍩</h4>
+                <p class="text-stone-600 text-sm leading-relaxed">
+                    Sweet treats, fluffy donuts, and delightful bakery creations illustrated with cozy, warm tones.🍃
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-[#fefae0] py-16 border-t border-[#dad7cd] text-center">
+        <div class="max-w-xl mx-auto px-6">
+            <h3 class="text-2xl font-bold text-[#3a5a40] mb-4">🤗Get in Touch🤗</h3>
+            <p class="text-stone-600 mb-6">🎬Have questions or want to collaborate?🎥Feel free to drop an email!🎬</p>
+            <a href="mailto:mythiliseeni12@gmail.com" class="inline-block bg-[#3a5a40] text-white px-8 py-3 rounded-full font-semibold shadow hover:bg-[#588157] transition">
+                📧 mythiliseeni12@gmail.com
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#3a5a40] text-white text-center py-6 mt-auto">
+        <p class="text-sm">© 2026 Foodies Life Ghibli. All Rights Reserved.</p>
+        <p class="text-xs text-[#e9edc9] mt-1">Every ✨single like, share, and comment is a spark that fuels this creative journey. If our Ghibli magic and food stories touched your heart, hit subscribe and join our lovely family👋</p>
+    </footer>
+
+</body>
+</html>
